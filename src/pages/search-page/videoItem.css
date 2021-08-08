@@ -1,0 +1,51 @@
+.videoItem_list {
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.videoItem_list:first-child {
+    margin-top: 20px;
+}
+
+.videoItem_gallery {
+    flex: 0 0 360px;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.videoItem__iframe_list {
+    width: 157px;
+    height: 88px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.videoItem__iframe_gallery {
+    width: 100%;
+    height: 190px;
+    margin-bottom: 10px;
+}
+
+.videoItem_text {
+    margin: 5px 0;
+}
+
+.videoItem__title {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.videoItem__channel-name {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(23, 23, 25, 0.3);
+}
+
+.videoItem__view-count {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(23, 23, 25, 0.3);
+}
